@@ -4,7 +4,7 @@ var port = process.env.PORT || 8080;
 
 http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Hello from OpenShift to Credit Suisse\nAnd thanks to vbehar\n/steve\n");
+  response.end("Hello steve - from OpenShift!\nAnd thanks to vbehar.\n");
   console.log("Served another request");
 }).listen(port);
 
